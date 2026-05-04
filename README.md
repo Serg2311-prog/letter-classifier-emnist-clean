@@ -18,17 +18,15 @@
 
 ---
 
-## Результаты (тестовая выборка)
+## Результаты (Test Set)
 
-> Точные значения появляются после запуска ноутбука.
-
-| Модель | Test Accuracy |
-|--------|--------------|
-| MLP baseline (PyTorch) | ~0.86 |
-| MLP + Dropout (PyTorch) | ~0.86 |
-| MLP baseline (TensorFlow) | ~0.86 |
-| MLP + Dropout (TensorFlow) | ~0.86 |
-| **CNN (PyTorch)** | **~0.92+** |
+| Model                      | Test Accuracy |
+|---------------------------|--------------|
+| MLP baseline (PyTorch)    | 91.48%       |
+| MLP + Dropout (PyTorch)   | 91.31%       |
+| MLP baseline (TensorFlow) | 90.68%       |
+| MLP + Dropout (TensorFlow)| 91.10%       |
+| **CNN (PyTorch)**         | **94.21%**   |
 
 CNN показывает значительно лучший результат за счёт извлечения пространственных признаков.
 
